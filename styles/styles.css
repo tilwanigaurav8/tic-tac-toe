@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+    color: rgb(44, 41, 44);
+    background-color: rgb(247, 239, 247);
+}
+
+#logo{
+    background-color: rgb(116, 18, 208);
+    color: white;
+    padding: 2rem 5%;
+    text-align: center;
+}
+
+.btn{
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(116, 18, 208);
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btnalt{
+    background-color: transparent;
+    border: transparent;
+    color: rgb(116, 18, 208);
+}
+
+.btn:hover{
+    background-color: rgb(79, 10, 190);
+    border-color: rgb(79, 10, 190);
+}
+
+.btnalt:hover{
+    background-color: rgb(163, 129, 205);
+}

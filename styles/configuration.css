@@ -1,0 +1,62 @@
+#config{
+    text-align: center;
+}
+
+#config h2{
+    margin: 0.5rem 0;
+}
+
+.forms{
+    margin: 00.5rem 0;
+}
+
+.forms label{
+    display: block;
+    margin-bottom: 00.5rem;
+    font-weight: bold;
+}
+
+.forms input{
+    border: 1px solid rgb(204, 204, 204);
+    font: inherit;
+    width: 15rem;
+    padding: 0.35rem;
+    background-color: rgb(143, 121, 163);
+    color: white;
+}
+
+#info{
+    width: 90%;
+    max-width: 40rem;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+#info ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#info li{
+    margin: 1rem;
+    padding: 1rem;
+    width: 50%;
+    background-color: rgb(233, 237, 233);
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+#info li h2{
+    font-size: 1rem;
+}
+
+#info li h3{
+    font-size: 1.5rem;
+    color: rgb(116, 18, 208);
+}
+
+#info li p{
+    font-size: 2rem;
+    font-weight: bold;
+}
